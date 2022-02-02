@@ -1,0 +1,164 @@
+body {
+    margin: 0px;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+a {
+    text-decoration: none;
+}
+.top-wrapper{
+    background-image: url(/Users/taichi/Desktop/html_lesson②/images.html:css②/progate,file2.png);
+    background-size: cover;
+    text-align: center;
+    padding: 180px 0 100px 0;
+    color: white;
+}
+.container {
+    padding:0 15px;
+    margin:0 auto;
+    width: 1170px;
+}
+.container h1 {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    opacity: 0.8;
+}
+.container p {
+    opacity: 0.8;
+}
+.top-btn {
+    display: inline-block;
+    margin: 20px 10px;
+}
+.register {
+    background-color:#389781;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.facebook {
+    background-color: #345188;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.twitter {
+    background-color:#499AD1;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.btn {
+    opacity: 0.8;
+}
+.btn:hover{
+    opacity: 1;
+}
+.fa {
+    margin-right: 5px;
+}
+header {
+    background-color: rgba(34,49,52,0.9);
+    height: 65px;
+    width: 100%;
+    color: white;
+    top: 0px;
+    position:fixed;
+    z-index: 10;
+}
+li {
+    list-style: none;
+}
+.header-icon {
+    float: left;
+    width: 124px;
+    height: 22px;
+    padding-left: 10px;
+    margin-top: 20px;
+
+}
+.header-list {
+    float: right;
+}
+.header-list a {
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 65px;
+    display: block; 
+    transition: all 0.5s;
+    
+}
+.header-list a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.lesson-wrapper {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 80px;
+    text-align: center;
+    height: 500px;
+    background-color: #F7F7F7;
+    background-size: cover;
+}
+.lesson-wrapper h2 {
+    margin: 0px;
+    padding: 100px 0 50px 0;
+    font-weight: normal;
+    opacity: 0.8;
+}
+.lesson-item {
+    float: left;
+    width: 25%;
+    opacity: 0.8;
+}
+.lesson-explain {
+    padding: 0 15px 0 15px;
+    opacity: 0.5;
+    font-size: 13px;
+}
+.lesson-icon {
+    position: relative;
+}
+.lesson-icon p {
+    position: absolute;
+    top:70px;
+    width:100%;
+    color: white;
+}
+.message-wrapper {
+    height:386px;
+    text-align: center;
+    opacity: 0.8;
+}
+.message-wrapper h2{
+    margin: 0;
+    font-weight: normal;
+    padding-top: 100px;
+}
+.message-btn {
+    color: white;
+    background-color: rgb(130,213,161);
+    display: inline-block;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow:0px 10px#1A7940 ;
+}
+.message-btn:active {
+    box-shadow: none;
+    margin-top: 40px;
+}
+footer {
+    height: 121px;
+    border-top: 0.4px solid #eee;
+    padding-left: 15px;
+}
+.footer-logo img {
+    padding:20px 0px 10px 0px;
+    width: 124px;
+    height: 22px;
+}
+.footer-txt {
+    font-size: 15px;
+    opacity: 0.4;
+}
+
